@@ -6,6 +6,7 @@
 }
 body{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -73,4 +74,16 @@ body{
   background-color: var(--clr);
   box-shadow: 0 0 20px var(--clr),
                 0 0 60px var(--clr);
+}
+
+footer{
+  color: aliceblue;
+  padding-top: 130px;
+  letter-spacing: 2px;
+}
+span{
+  font-style: italic;
+  text-decoration: underline;
+  color: rgb(216, 54, 143);
+  text-shadow: 0 0 5px;
 }
